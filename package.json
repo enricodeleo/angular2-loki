@@ -1,12 +1,12 @@
 {
   "name": "angular2-loki-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "angular-cli": {},
-  "build": "tsc",
+  "main": "./dist/index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "build": "tsc -p ./",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
@@ -46,6 +46,7 @@
     "protractor": "4.0.9",
     "ts-node": "1.2.1",
     "tslint": "3.13.0",
-    "typescript": "~2.0.3"
+    "typescript": "~2.1.0",
+    "webpack": "^3.7.1"
   }
 }
