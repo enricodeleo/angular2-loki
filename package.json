@@ -1,9 +1,12 @@
 {
-  "name": "angular2-loki",
-  "version": "1.0.0",
+  "name": "angular2-loki-fix",
+  "version": "1.0.1",
   "license": "MIT",
   "angular-cli": {},
+  "build": "tsc",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
