@@ -1,6 +1,6 @@
 {
   "name": "angular2-loki-fix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "angular-cli": {},
   "build": "tsc",
